@@ -1,18 +1,18 @@
 //
-//  TumbnailViewController.m
+//  ThumbnailViewController.m
 //  Test
 //
-//  Created by John.Chen on 15/11/29.
-//  Copyright © 2015年 ___大诚软件___. All rights reserved.
+//  Created by DeLongYang on 2017/9/24.
+//  Copyright © 2017年 ___大诚软件___. All rights reserved.
 //
 
-#import "TumbnailViewController.h"
+#import "ThumbnailViewController.h"
 
-@interface TumbnailViewController ()
+@interface ThumbnailViewController ()
 
 @end
 
-@implementation TumbnailViewController
+@implementation ThumbnailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

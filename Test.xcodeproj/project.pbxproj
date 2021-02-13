@@ -21,8 +21,6 @@
 		08A1EFDF1956ECF00006D7E4 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1EFDE1956ECF00006D7E4 /* TestTests.m */; };
 		08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A1EFE91956ED0D0006D7E4 /* RootViewController.m */; };
 		08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */; };
-		2624984C1C0ABD8500BD9DBF /* TumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984A1C0ABD8500BD9DBF /* TumbnailViewController.m */; };
-		2624984D1C0ABD8500BD9DBF /* TumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2624984B1C0ABD8500BD9DBF /* TumbnailViewController.xib */; };
 		262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */; };
 		262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262498501C0ABDC200BD9DBF /* PaletteViewController.xib */; };
 		263E12D31C0ACB1C00459AD8 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E12D21C0ACB1C00459AD8 /* Vertex.m */; };
@@ -34,6 +32,8 @@
 		BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F41F775765008DCD2B /* CoordinatingController.m */; };
 		BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F71F7761B9008DCD2B /* CanvasViewController.m */; };
 		BFF329FA1F7761B9008DCD2B /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF329F81F7761B9008DCD2B /* CanvasViewController.xib */; };
+		BFF329FE1F77CF2F008DCD2B /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329FC1F77CF2F008DCD2B /* ThumbnailViewController.m */; };
+		BFF329FF1F77CF2F008DCD2B /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF329FD1F77CF2F008DCD2B /* ThumbnailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +66,6 @@
 		08A1EFE81956ED0D0006D7E4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		08A1EFE91956ED0D0006D7E4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		262498491C0ABD8500BD9DBF /* TumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumbnailViewController.h; sourceTree = "<group>"; };
-		2624984A1C0ABD8500BD9DBF /* TumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumbnailViewController.m; sourceTree = "<group>"; };
-		2624984B1C0ABD8500BD9DBF /* TumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumbnailViewController.xib; sourceTree = "<group>"; };
 		2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
@@ -90,6 +87,9 @@
 		BFF329F61F7761B9008DCD2B /* CanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		BFF329F71F7761B9008DCD2B /* CanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		BFF329F81F7761B9008DCD2B /* CanvasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
+		BFF329FB1F77CF2F008DCD2B /* ThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		BFF329FC1F77CF2F008DCD2B /* ThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		BFF329FD1F77CF2F008DCD2B /* ThumbnailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,12 +317,12 @@
 				08A1EFE81956ED0D0006D7E4 /* RootViewController.h */,
 				08A1EFE91956ED0D0006D7E4 /* RootViewController.m */,
 				08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */,
-				262498491C0ABD8500BD9DBF /* TumbnailViewController.h */,
-				2624984A1C0ABD8500BD9DBF /* TumbnailViewController.m */,
-				2624984B1C0ABD8500BD9DBF /* TumbnailViewController.xib */,
 				2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */,
 				2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */,
 				262498501C0ABDC200BD9DBF /* PaletteViewController.xib */,
+				BFF329FB1F77CF2F008DCD2B /* ThumbnailViewController.h */,
+				BFF329FC1F77CF2F008DCD2B /* ThumbnailViewController.m */,
+				BFF329FD1F77CF2F008DCD2B /* ThumbnailViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -388,6 +388,9 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "___大诚软件___";
 				TargetAttributes = {
+					08A1EFB51956ECF00006D7E4 = {
+						DevelopmentTeam = H7HA4U3484;
+					};
 					08A1EFD01956ECF00006D7E4 = {
 						TestTargetID = 08A1EFB51956ECF00006D7E4;
 					};
@@ -416,12 +419,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2624984D1C0ABD8500BD9DBF /* TumbnailViewController.xib in Resources */,
 				BFF329FA1F7761B9008DCD2B /* CanvasViewController.xib in Resources */,
 				08A1EFC41956ECF00006D7E4 /* InfoPlist.strings in Resources */,
 				08A1EFCC1956ECF00006D7E4 /* Images.xcassets in Resources */,
 				262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */,
 				08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */,
+				BFF329FF1F77CF2F008DCD2B /* ThumbnailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +445,11 @@
 			files = (
 				262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */,
 				263E12D31C0ACB1C00459AD8 /* Vertex.m in Sources */,
-				2624984C1C0ABD8500BD9DBF /* TumbnailViewController.m in Sources */,
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,
 				268175581C9FDB3800504209 /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
+				BFF329FE1F77CF2F008DCD2B /* ThumbnailViewController.m in Sources */,
 				BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */,
 				BFF329EF1F775465008DCD2B /* Command.m in Sources */,
 				BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */,
@@ -594,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H7HA4U3484;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = "Test/Test-Info.plist";
@@ -608,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H7HA4U3484;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = "Test/Test-Info.plist";
