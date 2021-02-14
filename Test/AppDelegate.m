@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "CoordinatingController.h"    // 跳转的中枢
 
 @implementation AppDelegate
 
@@ -16,9 +17,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    RootViewController *rootVC=[[RootViewController alloc]initWithNibName:@"RootViewController" bundle:nil];
-    self.window.rootViewController=rootVC;
+//    RootViewController *rootVC=[[RootViewController alloc]initWithNibName:@"RootViewController" bundle:nil];
+//    self.window.rootViewController=rootVC;
     
+    //
+    CoordinatingController *coordinatingController = [CoordinatingController sharedInstance];
+    self.window.rootViewController = coordinatingController.activeViewController;
+    
+
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -9,6 +9,7 @@
 #import "CoordinatingController.h"
 #import "PaletteViewController.h"  // 调色板 颜料的viewController
 #import "ThumbnailViewController.h"  // 指甲 选择 粗细等的
+#import "CanvasViewController.h"  // 图形 绘制的 canvasVC
 
 @implementation CoordinatingController
 
@@ -27,7 +28,8 @@
 {
     self = [super init];
     if (self) {
-        
+        _canvasViewController = [[CanvasViewController alloc] initWithNibName:@"CanvasViewController" bundle:nil];
+        _activeViewController = _canvasViewController;
     }
     
     return self;

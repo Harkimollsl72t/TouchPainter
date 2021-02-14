@@ -23,10 +23,6 @@
 		08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */; };
 		262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */; };
 		262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262498501C0ABDC200BD9DBF /* PaletteViewController.xib */; };
-		263E12D31C0ACB1C00459AD8 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E12D21C0ACB1C00459AD8 /* Vertex.m */; };
-		263E12D61C0AD08200459AD8 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E12D51C0AD08200459AD8 /* Dot.m */; };
-		263E12D91C0AD28B00459AD8 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 263E12D81C0AD28B00459AD8 /* Stroke.m */; };
-		268175581C9FDB3800504209 /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 268175571C9FDB3800504209 /* CommandBarButton.m */; };
 		BFF329EF1F775465008DCD2B /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329EE1F775465008DCD2B /* Command.m */; };
 		BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F11F7755BB008DCD2B /* SaveScribbleCommand.m */; };
 		BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F41F775765008DCD2B /* CoordinatingController.m */; };
@@ -38,6 +34,7 @@
 		BFF32A051F78A052008DCD2B /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A041F78A052008DCD2B /* UIView+UIImage.m */; };
 		BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A071F78A275008DCD2B /* CommandSlider.m */; };
 		BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */; };
+		BFF32A1A1F78AED0008DCD2B /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A191F78AED0008DCD2B /* MarkRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,15 +70,6 @@
 		2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
-		263E12D01C0ACA4B00459AD8 /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
-		263E12D11C0ACB1C00459AD8 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
-		263E12D21C0ACB1C00459AD8 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
-		263E12D41C0AD08200459AD8 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
-		263E12D51C0AD08200459AD8 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
-		263E12D71C0AD28B00459AD8 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
-		263E12D81C0AD28B00459AD8 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
-		268175561C9FDB3800504209 /* CommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandBarButton.h; sourceTree = "<group>"; };
-		268175571C9FDB3800504209 /* CommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandBarButton.m; sourceTree = "<group>"; };
 		BFF329ED1F775465008DCD2B /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		BFF329EE1F775465008DCD2B /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		BFF329F01F7755BB008DCD2B /* SaveScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveScribbleCommand.h; sourceTree = "<group>"; };
@@ -102,6 +90,16 @@
 		BFF32A071F78A275008DCD2B /* CommandSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
 		BFF32A0C1F78A4AF008DCD2B /* CommandBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandBarButton.h; sourceTree = "<group>"; };
 		BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandBarButton.m; sourceTree = "<group>"; };
+		BFF32A101F78AAA9008DCD2B /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		BFF32A111F78AAA9008DCD2B /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		BFF32A121F78AAA9008DCD2B /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		BFF32A131F78AAA9008DCD2B /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		BFF32A141F78AAA9008DCD2B /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		BFF32A151F78AAA9008DCD2B /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		BFF32A161F78AAA9008DCD2B /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		BFF32A171F78AE37008DCD2B /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
+		BFF32A181F78AED0008DCD2B /* MarkRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
+		BFF32A191F78AED0008DCD2B /* MarkRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,15 +162,6 @@
 				2689620B1D2B4B0000D0059D /* Classes */,
 				08A1EFC81956ECF00006D7E4 /* AppDelegate.h */,
 				08A1EFC91956ECF00006D7E4 /* AppDelegate.m */,
-				268175561C9FDB3800504209 /* CommandBarButton.h */,
-				268175571C9FDB3800504209 /* CommandBarButton.m */,
-				263E12D01C0ACA4B00459AD8 /* Mark.h */,
-				263E12D11C0ACB1C00459AD8 /* Vertex.h */,
-				263E12D21C0ACB1C00459AD8 /* Vertex.m */,
-				263E12D41C0AD08200459AD8 /* Dot.h */,
-				263E12D51C0AD08200459AD8 /* Dot.m */,
-				263E12D71C0AD28B00459AD8 /* Stroke.h */,
-				263E12D81C0AD28B00459AD8 /* Stroke.m */,
 				08A1EFCB1956ECF00006D7E4 /* Images.xcassets */,
 				08A1EFC01956ECF00006D7E4 /* Supporting Files */,
 			);
@@ -211,12 +200,12 @@
 		2689620B1D2B4B0000D0059D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A0F1F78AAA9008DCD2B /* Composite Prototype Iterator */,
 				2689620C1D2B4B0000D0059D /* Commmand */,
 				268962101D2B4B0000D0059D /* Mediator */,
 				2689620E1D2B4B0000D0059D /* Factory Method */,
 				2689620F1D2B4B0000D0059D /* Iterator */,
 				2689621A1D2B4B0000D0059D /* Visitor */,
-				2689620D1D2B4B0000D0059D /* Composite Prototype Iterator */,
 				268962121D2B4B0000D0059D /* Proxy */,
 				268962111D2B4B0000D0059D /* Memento Observer */,
 				268962131D2B4B0000D0059D /* Utilities */,
@@ -235,13 +224,6 @@
 				BFF329F11F7755BB008DCD2B /* SaveScribbleCommand.m */,
 			);
 			path = Commmand;
-			sourceTree = "<group>";
-		};
-		2689620D1D2B4B0000D0059D /* Composite Prototype Iterator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Composite Prototype Iterator";
 			sourceTree = "<group>";
 		};
 		2689620E1D2B4B0000D0059D /* Factory Method */ = {
@@ -357,8 +339,25 @@
 		2689621A1D2B4B0000D0059D /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A171F78AE37008DCD2B /* MarkVisitor.h */,
+				BFF32A181F78AED0008DCD2B /* MarkRenderer.h */,
+				BFF32A191F78AED0008DCD2B /* MarkRenderer.m */,
 			);
 			path = Visitor;
+			sourceTree = "<group>";
+		};
+		BFF32A0F1F78AAA9008DCD2B /* Composite Prototype Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				BFF32A121F78AAA9008DCD2B /* Mark.h */,
+				BFF32A101F78AAA9008DCD2B /* Dot.h */,
+				BFF32A111F78AAA9008DCD2B /* Dot.m */,
+				BFF32A131F78AAA9008DCD2B /* Stroke.h */,
+				BFF32A141F78AAA9008DCD2B /* Stroke.m */,
+				BFF32A151F78AAA9008DCD2B /* Vertex.h */,
+				BFF32A161F78AAA9008DCD2B /* Vertex.m */,
+			);
+			path = "Composite Prototype Iterator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,20 +464,17 @@
 			files = (
 				BFF32A021F789E85008DCD2B /* NSMutableArray+Stack.m in Sources */,
 				262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */,
-				263E12D31C0ACB1C00459AD8 /* Vertex.m in Sources */,
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,
-				268175581C9FDB3800504209 /* CommandBarButton.m in Sources */,
 				BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
 				BFF329FE1F77CF2F008DCD2B /* ThumbnailViewController.m in Sources */,
 				BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */,
 				BFF32A051F78A052008DCD2B /* UIView+UIImage.m in Sources */,
+				BFF32A1A1F78AED0008DCD2B /* MarkRenderer.m in Sources */,
 				BFF329EF1F775465008DCD2B /* Command.m in Sources */,
 				BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */,
 				BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */,
-				263E12D61C0AD08200459AD8 /* Dot.m in Sources */,
-				263E12D91C0AD28B00459AD8 /* Stroke.m in Sources */,
 				BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
