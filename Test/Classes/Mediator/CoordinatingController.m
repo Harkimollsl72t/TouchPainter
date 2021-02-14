@@ -58,16 +58,33 @@
                 break;
             case kButtonTagOpenThumbnailView:
             {
+                ThumbnailViewController *controller = [[ThumbnailViewController alloc] initWithNibName:@"ThumbnailViewController" bundle:nil];
+                [self.canvasViewController presentViewController:controller animated:YES completion:^{
+                    
+                }];
+                
+                _activeViewController = controller;
                 
             }
                 break;
             default:
+            {
+                [self.canvasViewController dismissViewControllerAnimated:YES completion:^{
+                    
+                }];
+                _activeViewController = _canvasViewController;
+                
+            }
                 break;
         }
     }
     else
     {
-        
+        [self.canvasViewController dismissViewControllerAnimated:YES completion:^{
+            
+        }];
+        _activeViewController = _canvasViewController;
+
     }
 }
 

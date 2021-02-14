@@ -34,6 +34,10 @@
 		BFF329FA1F7761B9008DCD2B /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF329F81F7761B9008DCD2B /* CanvasViewController.xib */; };
 		BFF329FE1F77CF2F008DCD2B /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329FC1F77CF2F008DCD2B /* ThumbnailViewController.m */; };
 		BFF329FF1F77CF2F008DCD2B /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF329FD1F77CF2F008DCD2B /* ThumbnailViewController.xib */; };
+		BFF32A021F789E85008DCD2B /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A011F789E85008DCD2B /* NSMutableArray+Stack.m */; };
+		BFF32A051F78A052008DCD2B /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A041F78A052008DCD2B /* UIView+UIImage.m */; };
+		BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A071F78A275008DCD2B /* CommandSlider.m */; };
+		BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +94,14 @@
 		BFF329FB1F77CF2F008DCD2B /* ThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
 		BFF329FC1F77CF2F008DCD2B /* ThumbnailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
 		BFF329FD1F77CF2F008DCD2B /* ThumbnailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
+		BFF32A001F789E85008DCD2B /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		BFF32A011F789E85008DCD2B /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		BFF32A031F78A052008DCD2B /* UIView+UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		BFF32A041F78A052008DCD2B /* UIView+UIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		BFF32A061F78A275008DCD2B /* CommandSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		BFF32A071F78A275008DCD2B /* CommandSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		BFF32A0C1F78A4AF008DCD2B /* CommandBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandBarButton.h; sourceTree = "<group>"; };
+		BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,16 +212,16 @@
 			isa = PBXGroup;
 			children = (
 				2689620C1D2B4B0000D0059D /* Commmand */,
-				2689620D1D2B4B0000D0059D /* CompositePrototypeIterator */,
-				2689620E1D2B4B0000D0059D /* FactoryMethod */,
-				2689620F1D2B4B0000D0059D /* Iterator */,
 				268962101D2B4B0000D0059D /* Mediator */,
-				268962111D2B4B0000D0059D /* MementoObserver */,
+				2689620E1D2B4B0000D0059D /* Factory Method */,
+				2689620F1D2B4B0000D0059D /* Iterator */,
+				2689621A1D2B4B0000D0059D /* Visitor */,
+				2689620D1D2B4B0000D0059D /* Composite Prototype Iterator */,
 				268962121D2B4B0000D0059D /* Proxy */,
+				268962111D2B4B0000D0059D /* Memento Observer */,
 				268962131D2B4B0000D0059D /* Utilities */,
 				268962181D2B4B0000D0059D /* ViewControllers */,
 				268962191D2B4B0000D0059D /* Views */,
-				2689621A1D2B4B0000D0059D /* Visitor */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -225,18 +237,18 @@
 			path = Commmand;
 			sourceTree = "<group>";
 		};
-		2689620D1D2B4B0000D0059D /* CompositePrototypeIterator */ = {
+		2689620D1D2B4B0000D0059D /* Composite Prototype Iterator */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = CompositePrototypeIterator;
+			path = "Composite Prototype Iterator";
 			sourceTree = "<group>";
 		};
-		2689620E1D2B4B0000D0059D /* FactoryMethod */ = {
+		2689620E1D2B4B0000D0059D /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = FactoryMethod;
+			path = "Factory Method";
 			sourceTree = "<group>";
 		};
 		2689620F1D2B4B0000D0059D /* Iterator */ = {
@@ -255,11 +267,11 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
-		268962111D2B4B0000D0059D /* MementoObserver */ = {
+		268962111D2B4B0000D0059D /* Memento Observer */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = MementoObserver;
+			path = "Memento Observer";
 			sourceTree = "<group>";
 		};
 		268962121D2B4B0000D0059D /* Proxy */ = {
@@ -283,6 +295,8 @@
 		268962141D2B4B0000D0059D /* CommandButton */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A0C1F78A4AF008DCD2B /* CommandBarButton.h */,
+				BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */,
 			);
 			path = CommandButton;
 			sourceTree = "<group>";
@@ -290,6 +304,8 @@
 		268962151D2B4B0000D0059D /* CommandSlider */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A061F78A275008DCD2B /* CommandSlider.h */,
+				BFF32A071F78A275008DCD2B /* CommandSlider.m */,
 			);
 			path = CommandSlider;
 			sourceTree = "<group>";
@@ -297,6 +313,8 @@
 		268962161D2B4B0000D0059D /* CustomStack */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A001F789E85008DCD2B /* NSMutableArray+Stack.h */,
+				BFF32A011F789E85008DCD2B /* NSMutableArray+Stack.m */,
 			);
 			path = CustomStack;
 			sourceTree = "<group>";
@@ -304,6 +322,8 @@
 		268962171D2B4B0000D0059D /* View2Image */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A031F78A052008DCD2B /* UIView+UIImage.h */,
+				BFF32A041F78A052008DCD2B /* UIView+UIImage.m */,
 			);
 			path = View2Image;
 			sourceTree = "<group>";
@@ -443,16 +463,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF32A021F789E85008DCD2B /* NSMutableArray+Stack.m in Sources */,
 				262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */,
 				263E12D31C0ACB1C00459AD8 /* Vertex.m in Sources */,
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,
 				268175581C9FDB3800504209 /* CommandBarButton.m in Sources */,
+				BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
 				BFF329FE1F77CF2F008DCD2B /* ThumbnailViewController.m in Sources */,
 				BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */,
+				BFF32A051F78A052008DCD2B /* UIView+UIImage.m in Sources */,
 				BFF329EF1F775465008DCD2B /* Command.m in Sources */,
 				BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */,
+				BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */,
 				263E12D61C0AD08200459AD8 /* Dot.m in Sources */,
 				263E12D91C0AD28B00459AD8 /* Stroke.m in Sources */,
 				BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */,
