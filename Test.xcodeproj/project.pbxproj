@@ -26,6 +26,8 @@
 		BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656691F7A6FB70051240C /* Scribble.m */; };
 		BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566C1F7A70F90051240C /* ScribbleMemento.m */; };
 		BFC656701F7A71150051240C /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566F1F7A71150051240C /* ScribbleManager.m */; };
+		BFC656751F7A88EE0051240C /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656741F7A88EE0051240C /* ScribbleThumbnailView.m */; };
+		BFC656781F7A89230051240C /* ScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656771F7A89230051240C /* ScribbleThumbnailViewImageProxy.m */; };
 		BFF329EF1F775465008DCD2B /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329EE1F775465008DCD2B /* Command.m */; };
 		BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F11F7755BB008DCD2B /* SaveScribbleCommand.m */; };
 		BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F41F775765008DCD2B /* CoordinatingController.m */; };
@@ -82,6 +84,11 @@
 		BFC6566E1F7A71150051240C /* ScribbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
 		BFC6566F1F7A71150051240C /* ScribbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
 		BFC656711F7A71440051240C /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		BFC656721F7A88BE0051240C /* ScribbleSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleSource.h; sourceTree = "<group>"; };
+		BFC656731F7A88EE0051240C /* ScribbleThumbnailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailView.h; sourceTree = "<group>"; };
+		BFC656741F7A88EE0051240C /* ScribbleThumbnailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailView.m; sourceTree = "<group>"; };
+		BFC656761F7A89230051240C /* ScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		BFC656771F7A89230051240C /* ScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
 		BFF329ED1F775465008DCD2B /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		BFF329EE1F775465008DCD2B /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		BFF329F01F7755BB008DCD2B /* SaveScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveScribbleCommand.h; sourceTree = "<group>"; };
@@ -284,6 +291,11 @@
 		268962121D2B4B0000D0059D /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				BFC656721F7A88BE0051240C /* ScribbleSource.h */,
+				BFC656731F7A88EE0051240C /* ScribbleThumbnailView.h */,
+				BFC656741F7A88EE0051240C /* ScribbleThumbnailView.m */,
+				BFC656761F7A89230051240C /* ScribbleThumbnailViewImageProxy.h */,
+				BFC656771F7A89230051240C /* ScribbleThumbnailViewImageProxy.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -492,6 +504,8 @@
 				BFF32A021F789E85008DCD2B /* NSMutableArray+Stack.m in Sources */,
 				262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */,
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,
+				BFC656751F7A88EE0051240C /* ScribbleThumbnailView.m in Sources */,
+				BFC656781F7A89230051240C /* ScribbleThumbnailViewImageProxy.m in Sources */,
 				BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
