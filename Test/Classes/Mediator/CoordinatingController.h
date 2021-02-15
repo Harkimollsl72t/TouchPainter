@@ -3,7 +3,7 @@
 //  Test
 //
 //  Created by DeLongYang on 2017/9/24.
-//  Copyright © 2017年 ___大诚软件___. All rights reserved.
+//  Copyright © 2017年 ___杨德龙___. All rights reserved.
 /*
     2017-9-24 更新
     这是一个 VC 跳转的 中枢 类 这是一个单例的方法 

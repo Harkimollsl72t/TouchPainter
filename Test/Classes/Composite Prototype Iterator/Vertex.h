@@ -3,7 +3,7 @@
 //  Test
 //
 //  Created by John.Chen on 15/11/29.
-//  Copyright © 2015年 ___大诚软件___. All rights reserved.
+//  Copyright © 2015年 ___杨德龙___. All rights reserved.
 //  轨迹的顶点
 
 #import <Foundation/Foundation.h>

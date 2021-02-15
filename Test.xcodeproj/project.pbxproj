@@ -23,6 +23,9 @@
 		08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */; };
 		262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */; };
 		262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262498501C0ABDC200BD9DBF /* PaletteViewController.xib */; };
+		BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656691F7A6FB70051240C /* Scribble.m */; };
+		BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566C1F7A70F90051240C /* ScribbleMemento.m */; };
+		BFC656701F7A71150051240C /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566F1F7A71150051240C /* ScribbleManager.m */; };
 		BFF329EF1F775465008DCD2B /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329EE1F775465008DCD2B /* Command.m */; };
 		BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F11F7755BB008DCD2B /* SaveScribbleCommand.m */; };
 		BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF329F41F775765008DCD2B /* CoordinatingController.m */; };
@@ -35,6 +38,8 @@
 		BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A071F78A275008DCD2B /* CommandSlider.m */; };
 		BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A0D1F78A4AF008DCD2B /* CommandBarButton.m */; };
 		BFF32A1A1F78AED0008DCD2B /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A191F78AED0008DCD2B /* MarkRenderer.m */; };
+		BFF32A1D1F78F442008DCD2B /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A1C1F78F442008DCD2B /* CanvasViewGenerator.m */; };
+		BFF32A201F7901C7008DCD2B /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A1F1F7901C7008DCD2B /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,13 @@
 		2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
+		BFC656681F7A6FB70051240C /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
+		BFC656691F7A6FB70051240C /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
+		BFC6566B1F7A70F90051240C /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
+		BFC6566C1F7A70F90051240C /* ScribbleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
+		BFC6566E1F7A71150051240C /* ScribbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
+		BFC6566F1F7A71150051240C /* ScribbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		BFC656711F7A71440051240C /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
 		BFF329ED1F775465008DCD2B /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		BFF329EE1F775465008DCD2B /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		BFF329F01F7755BB008DCD2B /* SaveScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveScribbleCommand.h; sourceTree = "<group>"; };
@@ -100,6 +112,10 @@
 		BFF32A171F78AE37008DCD2B /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
 		BFF32A181F78AED0008DCD2B /* MarkRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
 		BFF32A191F78AED0008DCD2B /* MarkRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
+		BFF32A1B1F78F442008DCD2B /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		BFF32A1C1F78F442008DCD2B /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		BFF32A1E1F7901C7008DCD2B /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		BFF32A1F1F7901C7008DCD2B /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +245,8 @@
 		2689620E1D2B4B0000D0059D /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A1B1F78F442008DCD2B /* CanvasViewGenerator.h */,
+				BFF32A1C1F78F442008DCD2B /* CanvasViewGenerator.m */,
 			);
 			path = "Factory Method";
 			sourceTree = "<group>";
@@ -252,6 +270,13 @@
 		268962111D2B4B0000D0059D /* Memento Observer */ = {
 			isa = PBXGroup;
 			children = (
+				BFC656681F7A6FB70051240C /* Scribble.h */,
+				BFC656691F7A6FB70051240C /* Scribble.m */,
+				BFC6566B1F7A70F90051240C /* ScribbleMemento.h */,
+				BFC6566C1F7A70F90051240C /* ScribbleMemento.m */,
+				BFC6566E1F7A71150051240C /* ScribbleManager.h */,
+				BFC6566F1F7A71150051240C /* ScribbleManager.m */,
+				BFC656711F7A71440051240C /* ScribbleMemento+Friend.h */,
 			);
 			path = "Memento Observer";
 			sourceTree = "<group>";
@@ -332,6 +357,8 @@
 		268962191D2B4B0000D0059D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BFF32A1E1F7901C7008DCD2B /* CanvasView.h */,
+				BFF32A1F1F7901C7008DCD2B /* CanvasView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -472,9 +499,14 @@
 				BFF329F21F7755BB008DCD2B /* SaveScribbleCommand.m in Sources */,
 				BFF32A051F78A052008DCD2B /* UIView+UIImage.m in Sources */,
 				BFF32A1A1F78AED0008DCD2B /* MarkRenderer.m in Sources */,
+				BFC656701F7A71150051240C /* ScribbleManager.m in Sources */,
+				BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */,
+				BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */,
+				BFF32A1D1F78F442008DCD2B /* CanvasViewGenerator.m in Sources */,
 				BFF329EF1F775465008DCD2B /* Command.m in Sources */,
 				BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */,
 				BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */,
+				BFF32A201F7901C7008DCD2B /* CanvasView.m in Sources */,
 				BFF329F51F775765008DCD2B /* CoordinatingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

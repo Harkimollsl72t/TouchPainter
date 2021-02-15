@@ -3,7 +3,7 @@
 //  Test
 //
 //  Created by DeLongYang on 2017/9/25.
-//  Copyright © 2017年 ___大诚软件___. All rights reserved.
+//  Copyright © 2017年 ___杨德龙___. All rights reserved.
 //  Mark 的渲染器  包括 接受访问者 等的
 
 #import <Foundation/Foundation.h>

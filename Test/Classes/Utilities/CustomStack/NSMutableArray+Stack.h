@@ -3,7 +3,7 @@
 //  Test
 //
 //  Created by DeLongYang on 2017/9/25.
-//  Copyright © 2017年 ___大诚软件___. All rights reserved.
+//  Copyright © 2017年 ___杨德龙___. All rights reserved.
 /*
     使用说明 我们知道数组中添加  和 移除 没有考虑 为空的情况
     以及数组安全的 特性

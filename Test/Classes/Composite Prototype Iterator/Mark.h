@@ -22,6 +22,16 @@
 - (id<Mark>)childMarkAtIndex:(NSUInteger )index;
 
 //  为 访问者 模式中使用
+- (void) acceptMarkVisitor:(id<MarkVisitor>)visitor;
+
+// 迭代 器 模式 我们 获取 某个 对象的迭代器  类似于 nsarray 和 nsdictionary 中类似的
+- (NSEnumerator *)enumerator;
+
+- (void)enumerateMarksUsingBlock:(void (^)(id<Mark>item,BOOL *stop))block;
+
+
+// 如果 不使用  访问者模式 我们可能会采用下面这种方式 但是这是一个错误的示例
+- (void)drawWithContext:(CGContextRef )context;
 
 
 
