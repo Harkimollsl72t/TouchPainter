@@ -10,6 +10,12 @@
 
 @implementation ScribbleThumbnailView
 
+@dynamic image;
+@dynamic scribble;
+@synthesize  imagePath = imagePath_;
+@synthesize scribblePath = scribblePath_;
+
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
