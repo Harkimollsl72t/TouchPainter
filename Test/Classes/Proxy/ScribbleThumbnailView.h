@@ -5,7 +5,7 @@
 //  Created by DeLongYang on 2017/9/26.
 //  Copyright © 2017年 ___大诚软件___. All rights reserved.
 /*
-    注意 ScribbleThumbnailView 的属性的修饰
+    注意 ScribbleThumbnailView 的属性的修饰  
  */
 
 #import <UIKit/UIKit.h>
