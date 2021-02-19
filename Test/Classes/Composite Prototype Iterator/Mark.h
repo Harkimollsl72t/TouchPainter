@@ -3,10 +3,11 @@
 //  Test
 //
 //  Created by 杨德龙 on 15/11/29.
-//  Copyright © 2015年 ___软件___. All rights reserved.
+//  Copyright © 2015年 ___杨德龙___. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "MarkVisitor.h"
 
 @protocol Mark <NSObject>
 

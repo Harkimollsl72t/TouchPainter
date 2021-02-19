@@ -7,7 +7,14 @@
 //
 
 #import "ScribbleMemento.h"
+#import "Mark.h"
+
 
 @interface ScribbleMemento ()
+
+- (instancetype)initWithMark:(id<Mark>)aMark;
+
+
+
 
 @end
