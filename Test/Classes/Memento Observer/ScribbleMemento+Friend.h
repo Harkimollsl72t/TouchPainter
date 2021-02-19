@@ -14,7 +14,11 @@
 
 - (instancetype)initWithMark:(id<Mark>)aMark;
 
+@property (nonatomic,copy)id<Mark>mark;
 
-
+/**
+ 完成了 截屏
+ */
+@property (nonatomic,assign) BOOL hasCompleteSnapshot;
 
 @end

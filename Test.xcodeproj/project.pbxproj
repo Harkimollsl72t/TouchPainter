@@ -23,6 +23,10 @@
 		08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */; };
 		262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */; };
 		262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262498501C0ABDC200BD9DBF /* PaletteViewController.xib */; };
+		BF025FEB1F7FB13E00C5D3BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */; };
+		BF025FEC1F7FB15C00C5D3BA /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A141F78AAA9008DCD2B /* Stroke.m */; };
+		BF025FED1F7FB16500C5D3BA /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A161F78AAA9008DCD2B /* Vertex.m */; };
+		BF025FEE1F7FB16D00C5D3BA /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A111F78AAA9008DCD2B /* Dot.m */; };
 		BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656691F7A6FB70051240C /* Scribble.m */; };
 		BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566C1F7A70F90051240C /* ScribbleMemento.m */; };
 		BFC656701F7A71150051240C /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566F1F7A71150051240C /* ScribbleManager.m */; };
@@ -77,6 +81,7 @@
 		2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
+		BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BFC656681F7A6FB70051240C /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
 		BFC656691F7A6FB70051240C /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
 		BFC6566B1F7A70F90051240C /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
@@ -130,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF025FEB1F7FB13E00C5D3BA /* QuartzCore.framework in Frameworks */,
 				08A1EFBC1956ECF00006D7E4 /* CoreGraphics.framework in Frameworks */,
 				08A1EFBE1956ECF00006D7E4 /* UIKit.framework in Frameworks */,
 				08A1EFBA1956ECF00006D7E4 /* Foundation.framework in Frameworks */,
@@ -171,6 +177,7 @@
 		08A1EFB81956ECF00006D7E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */,
 				08A1EFB91956ECF00006D7E4 /* Foundation.framework */,
 				08A1EFBB1956ECF00006D7E4 /* CoreGraphics.framework */,
 				08A1EFBD1956ECF00006D7E4 /* UIKit.framework */,
@@ -501,6 +508,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF025FEE1F7FB16D00C5D3BA /* Dot.m in Sources */,
+				BF025FED1F7FB16500C5D3BA /* Vertex.m in Sources */,
+				BF025FEC1F7FB15C00C5D3BA /* Stroke.m in Sources */,
 				BFF32A021F789E85008DCD2B /* NSMutableArray+Stack.m in Sources */,
 				262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */,
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,

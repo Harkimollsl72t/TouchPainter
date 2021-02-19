@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MarkVisitor.h"
 
-@protocol Mark <NSObject>
+@protocol Mark <NSObject,NSCopying,NSCoding>
 
 @property (nonatomic,strong)UIColor * color;
 @property (nonatomic,assign)CGFloat size;

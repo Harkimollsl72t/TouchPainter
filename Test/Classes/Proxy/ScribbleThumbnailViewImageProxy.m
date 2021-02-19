@@ -29,7 +29,8 @@
     if (scribble_ == nil) {
         NSFileManager *fileManager = [NSFileManager defaultManager];
         NSData *scribbleData = [fileManager contentsAtPath:scribblePath_];
-        
+        ScribbleMemento *scribbleMemento = [ScribbleMemento mementoWithData:scribbleData];
+        scribble_ = [Scribble scribbleWithMemento:scribbleMemento];
     }
     
     return scribble_;
