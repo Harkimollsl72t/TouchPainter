@@ -31,6 +31,7 @@
 - (void)enumerateMarksUsingBlock:(void (^)(id<Mark>item,BOOL *stop))block;
 
 
+// 这是一个 错误的示范 案例
 // 如果 不使用  访问者模式 我们可能会采用下面这种方式 但是这是一个错误的示例
 - (void)drawWithContext:(CGContextRef )context;
 

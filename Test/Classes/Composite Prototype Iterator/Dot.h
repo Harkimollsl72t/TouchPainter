@@ -20,5 +20,18 @@
 
 - (id)copyWithZone:(NSZone *)zone;
 
+- (void)acceptMarkVisitor:(id<MarkVisitor>)visitor;
+
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder;
+- (void)encodeWithCoder:(NSCoder *)aCoder;
+
+
+
+
+
+
+
+
 
 @end

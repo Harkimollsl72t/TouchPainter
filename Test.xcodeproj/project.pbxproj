@@ -27,6 +27,7 @@
 		BF025FEC1F7FB15C00C5D3BA /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A141F78AAA9008DCD2B /* Stroke.m */; };
 		BF025FED1F7FB16500C5D3BA /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A161F78AAA9008DCD2B /* Vertex.m */; };
 		BF025FEE1F7FB16D00C5D3BA /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A111F78AAA9008DCD2B /* Dot.m */; };
+		BF025FF11F85E59700C5D3BA /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF025FF01F85E59700C5D3BA /* MarkEnumerator.m */; };
 		BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC656691F7A6FB70051240C /* Scribble.m */; };
 		BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566C1F7A70F90051240C /* ScribbleMemento.m */; };
 		BFC656701F7A71150051240C /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC6566F1F7A71150051240C /* ScribbleManager.m */; };
@@ -82,6 +83,9 @@
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
 		BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF025FEF1F85E59700C5D3BA /* MarkEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
+		BF025FF01F85E59700C5D3BA /* MarkEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
+		BF025FF51F85E5F200C5D3BA /* MarkEnumerator+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Internal.h"; sourceTree = "<group>"; };
 		BFC656681F7A6FB70051240C /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
 		BFC656691F7A6FB70051240C /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
 		BFC6566B1F7A70F90051240C /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
@@ -268,6 +272,9 @@
 		2689620F1D2B4B0000D0059D /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				BF025FEF1F85E59700C5D3BA /* MarkEnumerator.h */,
+				BF025FF01F85E59700C5D3BA /* MarkEnumerator.m */,
+				BF025FF51F85E5F200C5D3BA /* MarkEnumerator+Internal.h */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -516,6 +523,7 @@
 				08A1EFCA1956ECF00006D7E4 /* AppDelegate.m in Sources */,
 				BFC656751F7A88EE0051240C /* ScribbleThumbnailView.m in Sources */,
 				BFC656781F7A89230051240C /* ScribbleThumbnailViewImageProxy.m in Sources */,
+				BF025FF11F85E59700C5D3BA /* MarkEnumerator.m in Sources */,
 				BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
