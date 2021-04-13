@@ -13,7 +13,7 @@
 
 @interface Scribble ()
 
-@property (nonatomic, retain) id <Mark> mark;
+@property (nonatomic, strong) id <Mark> mark;
 
 @end
 

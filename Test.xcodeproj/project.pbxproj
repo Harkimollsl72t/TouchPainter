@@ -23,6 +23,8 @@
 		08A1EFEC1956ED0D0006D7E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A1EFEA1956ED0D0006D7E4 /* RootViewController.xib */; };
 		262498511C0ABDC200BD9DBF /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */; };
 		262498521C0ABDC200BD9DBF /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262498501C0ABDC200BD9DBF /* PaletteViewController.xib */; };
+		BB041FE21FC42994001141F2 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB041FE11FC42994001141F2 /* ClothCanvasView.m */; };
+		BB041FE51FC429AF001141F2 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB041FE41FC429AF001141F2 /* PaperCanvasView.m */; };
 		BF025FEB1F7FB13E00C5D3BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */; };
 		BF025FEC1F7FB15C00C5D3BA /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A141F78AAA9008DCD2B /* Stroke.m */; };
 		BF025FED1F7FB16500C5D3BA /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF32A161F78AAA9008DCD2B /* Vertex.m */; };
@@ -82,6 +84,10 @@
 		2624984E1C0ABDC200BD9DBF /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		2624984F1C0ABDC200BD9DBF /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
 		262498501C0ABDC200BD9DBF /* PaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteViewController.xib; sourceTree = "<group>"; };
+		BB041FE01FC42994001141F2 /* ClothCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		BB041FE11FC42994001141F2 /* ClothCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		BB041FE31FC429AF001141F2 /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		BB041FE41FC429AF001141F2 /* PaperCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
 		BF025FEA1F7FB13E00C5D3BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BF025FEF1F85E59700C5D3BA /* MarkEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
 		BF025FF01F85E59700C5D3BA /* MarkEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
@@ -385,6 +391,10 @@
 			children = (
 				BFF32A1E1F7901C7008DCD2B /* CanvasView.h */,
 				BFF32A1F1F7901C7008DCD2B /* CanvasView.m */,
+				BB041FE01FC42994001141F2 /* ClothCanvasView.h */,
+				BB041FE11FC42994001141F2 /* ClothCanvasView.m */,
+				BB041FE31FC429AF001141F2 /* PaperCanvasView.h */,
+				BB041FE41FC429AF001141F2 /* PaperCanvasView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -461,7 +471,7 @@
 				ORGANIZATIONNAME = "___大诚软件___";
 				TargetAttributes = {
 					08A1EFB51956ECF00006D7E4 = {
-						DevelopmentTeam = H7HA4U3484;
+						DevelopmentTeam = JK6BK74J35;
 					};
 					08A1EFD01956ECF00006D7E4 = {
 						TestTargetID = 08A1EFB51956ECF00006D7E4;
@@ -524,6 +534,7 @@
 				BFC656751F7A88EE0051240C /* ScribbleThumbnailView.m in Sources */,
 				BFC656781F7A89230051240C /* ScribbleThumbnailViewImageProxy.m in Sources */,
 				BF025FF11F85E59700C5D3BA /* MarkEnumerator.m in Sources */,
+				BB041FE21FC42994001141F2 /* ClothCanvasView.m in Sources */,
 				BFF32A0E1F78A4AF008DCD2B /* CommandBarButton.m in Sources */,
 				08A1EFC61956ECF00006D7E4 /* main.m in Sources */,
 				08A1EFEB1956ED0D0006D7E4 /* RootViewController.m in Sources */,
@@ -535,6 +546,7 @@
 				BFC6566A1F7A6FB70051240C /* Scribble.m in Sources */,
 				BFC6566D1F7A70F90051240C /* ScribbleMemento.m in Sources */,
 				BFF32A1D1F78F442008DCD2B /* CanvasViewGenerator.m in Sources */,
+				BB041FE51FC429AF001141F2 /* PaperCanvasView.m in Sources */,
 				BFF329EF1F775465008DCD2B /* Command.m in Sources */,
 				BFF329F91F7761B9008DCD2B /* CanvasViewController.m in Sources */,
 				BFF32A081F78A275008DCD2B /* CommandSlider.m in Sources */,
@@ -681,7 +693,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = H7HA4U3484;
+				DEVELOPMENT_TEAM = JK6BK74J35;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = "Test/Test-Info.plist";
@@ -696,7 +708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = H7HA4U3484;
+				DEVELOPMENT_TEAM = JK6BK74J35;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
 				INFOPLIST_FILE = "Test/Test-Info.plist";

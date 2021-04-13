@@ -15,7 +15,7 @@
     CGFloat size_;
 }
 
-@property (nonatomic,retain)UIColor * color;
+@property (nonatomic,strong)UIColor * color;
 @property (nonatomic,assign)CGFloat size;
 
 - (id)copyWithZone:(NSZone *)zone;
